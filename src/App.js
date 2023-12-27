@@ -42,8 +42,8 @@ class App extends React.Component {
       4: 'complete'
     };
 
-    ReactGA.initialize('UA-144274728-1');
-    ReactGA.pageview(window.location.pathname + this.transactionSteps[this.state.currentStep]);
+    //ReactGA.initialize('UA-144274728-1');
+    //ReactGA.pageview(window.location.pathname + this.transactionSteps[this.state.currentStep]);
   }
 
   componentDidMount() {

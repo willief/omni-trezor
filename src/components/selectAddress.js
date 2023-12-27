@@ -5,7 +5,7 @@ class SelectAddress extends React.Component {
     return(
       <div className="addressDetailContainer">
         {this.props.addresses.length === 0 &&
-          <p>There are no eligible addresses on this account.  Please ensure your addresses containing OMNI tokens have at least 8000 satoshi in Bitcoin on a single output as well in order to faciliate a transaction.</p>
+          <p>There are no eligible addresses on this account. Please ensure your addresses containing OMNI tokens have at least enough satoshi in Bitcoin on a single output as well in order to faciliate a transaction.</p>
         }
         {this.props.addresses.map((address, index) => {
           return(
